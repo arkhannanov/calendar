@@ -3,14 +3,21 @@ import {Field, reduxForm} from 'redux-form';
 import {connect} from 'react-redux';
 import './TeddyForm.scss';
 import ChildSlider from "../ChildSlider/ChildSlider";
+import HeroSlider from "../HeroSlider/HeroSlider";
 
 const validate = values => {
     const errors = {}
-    if (!values.child) {errors.child = "Лопух2"}
-    if (!values.name ) {errors.name = "Лопух"}
-    if (values.child === '') {errors.child = "Выберите Ребенка"}
+    if (!values.hero) {
+        errors.hero = "Выберите изображение"
+    }
+    if (!values.child) {
+        errors.child = "Выберите изображение"
+    }
+    if (!values.name) {
+        errors.name = "Обязательное поле"
+    }
     if (!values.email) {
-        errors.email = 'Необходимое поле'
+        errors.email = 'Обязательное поле'
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
         errors.email = 'Неправильный e-mail'
     }
@@ -18,7 +25,7 @@ const validate = values => {
 }
 
 const renderField = ({input, label, type, meta: {touched, error, warning}}) => (
-    <div>
+    <div className="form__render-field">
         <input {...input} placeholder={label} type={type} className="form__control"/>
         {touched && ((error && <span className="form__text-danger">{error}</span>) || (warning &&
             <span>{warning}</span>))}
@@ -44,31 +51,37 @@ const Form = ({handleSubmit, error, pristine, submitting, isLoading}) => {
                     />
                 </div>
                 <div className="form__child-surname-container">
-                    <div className="form__child-surname-title">Фамилия:</div>
+                    <div className="form__child-surname-title">E-mail:</div>
                     <Field
-                        name="surname"
+                        name="email"
                         component={renderField}
                         label=''
                         className='form__input'
                     />
                 </div>
             </div>
-            <Field
-                name="child"
-                component={ChildSlider}
-                label=''
-            />
-
+            <div className="form__sliders-container">
+                <Field
+                    name="child"
+                    component={ChildSlider}
+                    label=''
+                />
+                <Field
+                    name="hero"
+                    component={HeroSlider}
+                    label=''
+                />
+            </div>
             <div className="form__header">
                 <div className="form__header-number">2.</div>
-                <div className="form__header-title">Закончите форму</div>
+                <div className="form__header-title">Отправьте данные:</div>
                 <div className="form__header-fake-number">2.</div>
             </div>
             {error && <div className='form__error'>
                 {error}
             </div>
             }
-            <div>{isLoading
+            <div className='form__submit-button-container'>{isLoading
                 ? <button>Подождите...</button>
                 : <button className='form__submit-button' type='submit' disabled={pristine || submitting}>
                     Отправить

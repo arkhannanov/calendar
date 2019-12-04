@@ -1,4 +1,4 @@
-.child-slider-container {
+.hero-slider-container {
   width: 425px;
   height: 270px;
   display: flex;
@@ -8,14 +8,8 @@
   align-self: center;
 }
 
-.child-slider {
+.hero-slider {
 
-  child-slider__line {
-    height: 50px;
-    width: 100%;
-    background: red;
-    border: 1px solid #a5a5a5;
-  }
   &__text-danger {
     color: red;
     position: absolute;

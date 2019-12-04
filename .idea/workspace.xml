@@ -2,64 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de0e3754-92bb-455d-a690-cbab8d410387" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/HeroSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/HeroSlider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/no-image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/acticle-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/article-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/articles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/comments.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/date-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer-navigation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/jw-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/jw.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/laptop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/location-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/pagination.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/ArticleBottom/ArticleBottom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/ArticleBottom/ArticleBottom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/ArticleContent/ArticleContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/ArticleContent/ArticleContent.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/ArticleTop/ArticleTop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/ArticleTop/ArticleTop.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/Articles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Articles/Artiles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/AutoCompletedText/AutoCompletedText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/AutoCompletedText/Cities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HamburgerMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HamburgerMenu/HumburgerMenu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/NewsItem/NewsItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pagination/Pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pagination/Pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans-bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans-light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans-light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fira-sans.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/header-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/images-selectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/calendar-coloring-book.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/calendar-coloring-book.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +59,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -109,17 +69,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\calendar\src\components\Content" />
+      <recent name="C:\Users\ARKPlayProduction\Desktop\project\src\assets\images" />
+      <recent name="C:\Users\Artur Khannanov\Desktop\test-mo\src\components\common\Preloader" />
+      <recent name="C:\Users\Artur Khannanov\Desktop\test-mo\src\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ARKPlayProduction\Desktop\project\src\components\Header\AutoCompletedText" />
       <recent name="C:\Users\ARKPlayProduction\Desktop\project\src\assets\images" />
       <recent name="C:\Users\1\Desktop\project\src\fonts" />
       <recent name="C:\Users\1\Desktop\project\src\assets\images" />
       <recent name="C:\Users\1\Desktop\project\src\assets\laptop" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ARKPlayProduction\Desktop\project\src\assets\images" />
-      <recent name="C:\Users\Artur Khannanov\Desktop\test-mo\src\components\common\Preloader" />
-      <recent name="C:\Users\Artur Khannanov\Desktop\test-mo\src\assets\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,6 +126,7 @@
       <workItem from="1574855657794" duration="1200000" />
       <workItem from="1575193987314" duration="18236000" />
       <workItem from="1575446778758" duration="380000" />
+      <workItem from="1575447192457" duration="7960000" />
     </task>
     <task id="LOCAL-00001" summary="Heroku deploy">
       <created>1568320600076</created>

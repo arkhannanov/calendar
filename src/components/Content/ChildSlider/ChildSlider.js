@@ -51,12 +51,24 @@ class ChildSlider extends React.Component {
         };
         const {input: {value, onChange}, meta: {touched, error, warning}} = this.props;
 
-        if (value === 1) {this.image.src = child1;}
-        if (value === 2) {this.image.src = child2;}
-        if (value === 3) {this.image.src = child3;}
-        if (value === 4) {this.image.src = child4;}
-        if (value === 5) {this.image.src = child5;}
-        if (value === 6) {this.image.src = child6;}
+        if (value === 1) {
+            this.image.src = child1;
+        }
+        if (value === 2) {
+            this.image.src = child2;
+        }
+        if (value === 3) {
+            this.image.src = child3;
+        }
+        if (value === 4) {
+            this.image.src = child4;
+        }
+        if (value === 5) {
+            this.image.src = child5;
+        }
+        if (value === 6) {
+            this.image.src = child6;
+        }
 
         return (
             <div className="child-slider-container">
@@ -64,15 +76,33 @@ class ChildSlider extends React.Component {
                 <img className="child-slider__image" src={noImage} ref={(img) => {
                     this.image = img;
                 }} alt='child'/>
-                {touched && ((error && <span className="form__text-danger">{error}</span>) || (warning &&
+                {touched && ((error && <span className="child-slider__text-danger">{error}</span>) || (warning &&
                     <span>{warning}</span>))}
                 <Slider {...settings} className="child-slider">
-                    <button type="button" className="slide" onClick={() => onChange(1)}><img alt='child' className="child-slider__image-slider" src={child1}/></button>
-                    <button type="button" className="slide" onClick={() => onChange(2)}><img alt='child'className="child-slider__image-slider" src={child2}/></button>
-                    <button type="button" className="slide" onClick={() => onChange(3)}><img alt='child' className="child-slider__image-slider" src={child3}/></button>
-                    <button type="button" className="slide" onClick={() => onChange(4)}><img alt='child' className="child-slider__image-slider" src={child4}/></button>
-                    <button type="button" className="slide" onClick={() => onChange(5)}><img alt='child' className="child-slider__image-slider" src={child5}/></button>
-                    <button type="button" className="slide" onClick={() => onChange(6)}><img alt='child' className="child-slider__image-slider" src={child6}/></button>
+                    <button type="button" className="slide" onClick={() => onChange(1)}><img alt='child' align="middle"
+                                                                                             className="child-slider__image-slider"
+                                                                                             width={90} height={90}
+                                                                                             src={child1}/></button>
+                    <button type="button" className="slide" onClick={() => onChange(2)}><img alt='child' align="middle"
+                                                                                             className="child-slider__image-slider"
+                                                                                             width={90} height={90}
+                                                                                             src={child2}/></button>
+                    <button type="button" className="slide" onClick={() => onChange(3)}><img alt='child' align="middle"
+                                                                                             className="child-slider__image-slider"
+                                                                                             width={90} height={90}
+                                                                                             src={child3}/></button>
+                    <button type="button" className="slide" onClick={() => onChange(4)}><img alt='child' align="middle"
+                                                                                             className="child-slider__image-slider"
+                                                                                             width={90} height={90}
+                                                                                             src={child4}/></button>
+                    <button type="button" className="slide" onClick={() => onChange(5)}><img alt='child' align="middle"
+                                                                                             className="child-slider__image-slider"
+                                                                                             width={90} height={90}
+                                                                                             src={child5}/></button>
+                    <button type="button" className="slide" onClick={() => onChange(6)}><img alt='child' align="middle"
+                                                                                             className="child-slider__image-slider"
+                                                                                             width={90} height={90}
+                                                                                             src={child6}/></button>
                 </Slider>
             </div>
         );
