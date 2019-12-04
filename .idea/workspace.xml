@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de0e3754-92bb-455d-a690-cbab8d410387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/HeroSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/HeroSlider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/HeroSlider/images/no-image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/calendar-coloring-book.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/calendar-coloring-book.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/ChildSlider/ChildSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/TeddyForm/TeddyForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +111,7 @@
       <workItem from="1574855657794" duration="1200000" />
       <workItem from="1575193987314" duration="18236000" />
       <workItem from="1575446778758" duration="380000" />
-      <workItem from="1575447192457" duration="7960000" />
+      <workItem from="1575447192457" duration="9474000" />
     </task>
     <task id="LOCAL-00001" summary="Heroku deploy">
       <created>1568320600076</created>
