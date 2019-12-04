@@ -2,13 +2,13 @@
 
 body {
   margin: 0;
-  font-family: "FiraSans", "Segoe UI", "Roboto", "Oxygen",
+  font-family: "lato", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f8f8f8;
   height: 100%;
+  width: 100%;
 }
 
 code {
