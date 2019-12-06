@@ -99,6 +99,7 @@ const ReduxForm = reduxForm({form: 'teddy', validate})(Form)
 const TeddyForm = (props) => {
     const onSubmit = (formData) => {
 
+        console.log('Деплой новый');
         instance.post('/create-pdf', formData).then(()=>instance.post('fetch-pdf', formData));
 
             // .then(() => instance.get('fetch-pdf', { responseType: 'blob' }))
