@@ -4,6 +4,8 @@ import {connect} from 'react-redux';
 import './TeddyForm.scss';
 import ChildSlider from "../ChildSlider/ChildSlider";
 import HeroSlider from "../HeroSlider/HeroSlider";
+import {instance} from "../../../api/api";
+import { saveAs } from 'file-saver';
 
 const validate = values => {
     const errors = {}
@@ -96,7 +98,15 @@ const ReduxForm = reduxForm({form: 'teddy', validate})(Form)
 
 const TeddyForm = (props) => {
     const onSubmit = (formData) => {
-        console.log(formData);
+
+        instance.post('/create-pdf', formData).then(()=>instance.post('fetch-pdf', formData));
+
+            // .then(() => instance.get('fetch-pdf', { responseType: 'blob' }))
+            // .then((res) => {
+            //     const pdfBlob = new Blob([res.data], { type: 'application/pdf' });
+            //
+            //     saveAs(pdfBlob, 'newPdf.pdf');
+            // })
     }
 
     return <div className='teddy-form'>
