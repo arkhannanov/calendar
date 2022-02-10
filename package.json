@@ -12,7 +12,7 @@
     "bootstrap": "^4.4.1",
     "file-saver": "^2.0.2",
     "fs": "0.0.1-security",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.12.0",
     "react-data-menu": "^1.1.2",
     "react-dom": "^16.12.0",
